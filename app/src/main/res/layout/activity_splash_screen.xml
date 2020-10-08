@@ -8,24 +8,22 @@
     tools:context=".SplashScreen">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         app:srcCompat="@drawable/download"
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="134dp"
-         />
+        android:contentDescription="TODO" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textAlignment="center"
-        android:text="Proyek 1"
+        android:text="Proyek 3"
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="165dp"
-        />
+        android:gravity="center_horizontal" />
 </LinearLayout>

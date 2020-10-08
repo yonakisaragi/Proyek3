@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InsertAndViewActivity"></activity>
+        <activity
+            android:name=".InsertAndViewActivity"
+            android:label="Tambah Catatan"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".SplashScreen">
         <intent-filter>
 
@@ -19,7 +26,7 @@
 
         </intent-filter>
     </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" android:label="Daftar Catatan"></activity>
     </application>
 
 </manifest>
